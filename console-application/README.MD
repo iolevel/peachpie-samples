@@ -13,7 +13,7 @@ The PHP sources are compiled to .NET Core by Peachpie compiler which is seamless
 - .NET Core 1.0 or newer
 - Optionally - Visual Studio Code 
 
-## How to compile the project
+## How to run the project
 
 1. `dotnet restore`
 2. `dotnet run`

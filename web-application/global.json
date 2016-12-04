@@ -1,0 +1,7 @@
+{
+    "projects":[
+        "website",
+        "pchp.requesthandler",
+        "app"
+    ]
+}
