@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "System.Reflection": "4.1.0",
-    "Peachpie.Runtime" : "0.3.0-*",
+    "Peachpie.Runtime" : "0.4.0-preview2",
     "phplib" : "*"
   },
   "frameworks": {
