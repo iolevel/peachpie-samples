@@ -7,7 +7,7 @@
     "dependencies": {
         "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
         "Microsoft.AspNetCore.StaticFiles": "1.0.0",
-        "Peachpie.NETCore.Web": "0.2.0-*",
+        "Peachpie.NETCore.Web": "0.4.0-*",
         "website": "1.0.0"
     },
     "tools": {
