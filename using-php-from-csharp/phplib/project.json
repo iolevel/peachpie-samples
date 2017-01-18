@@ -8,10 +8,10 @@
         "debugType": "portable"
     },
     "dependencies": {
-        "Peachpie.App": "0.4.0-preview2"
+        "Peachpie.App": "0.4.0-preview6"
     },
     "tools": {
-        "Peachpie.Compiler.Tools": "0.4.0-preview2"
+        "Peachpie.Compiler.Tools": "0.4.0-preview6"
     },
     "frameworks": {
         "netcoreapp1.0": {
