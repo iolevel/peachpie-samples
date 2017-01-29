@@ -1,6 +1,6 @@
 ## C# and PHP Interoperability Sample
 
-The sample consists of PHP project `phplib` and executable C# project `csharpapp`.
+The sample consists of a PHP project `phplib` and an executable C# project `csharpapp`.
 
 `phplib` functions and class declaration 'User'
 
@@ -19,3 +19,11 @@ The PHP sources are compiled to .NET Core by Peachpie compiler which is seamless
 
 1. `dotnet restore`
 2. `dotnet run -p csharpapp`
+
+## Further information
+
+Read more about this particular sample in our corresponding [blog post]( http://www.peachpie.io/2017/01/csharp-php-interop.html) or watch the video here:
+
+<a href="https://youtu.be/xnQTsdJhvtk
+" target="_blank"><img src="http://img.youtube.com/vi/xnQTsdJhvtk/0.jpg" 
+alt="C#/PHP interop" width="480" height="360" border="10" /></a>
