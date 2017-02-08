@@ -1,6 +1,6 @@
 {
     "name": "console-application",
-    "version": "1.0.0-*",
+    "version": "1.0.0",
     "description": "PHP Console Application compiled into .NET by Peachpie",
     "buildOptions": {
         "compilerName": "php",
@@ -9,10 +9,10 @@
         "debugType": "portable"
     },
     "dependencies": {
-        "Peachpie.App": "0.4.0-*"
+        "Peachpie.App": "0.5.0-*"
     },
     "tools": {
-        "Peachpie.Compiler.Tools": "0.4.0-*"
+        "Peachpie.Compiler.Tools": "0.5.0-*"
     },
     "frameworks": {
         "netcoreapp1.0": {
