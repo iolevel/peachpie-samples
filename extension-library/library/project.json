@@ -4,7 +4,7 @@
     "debugType": "portable"
   },
   "dependencies": {
-    "Peachpie.Runtime": "0.4.0-*"
+    "Peachpie.Runtime": "0.5.0-*"
   },
   "frameworks": {
     "netcoreapp1.0": {
