@@ -10,11 +10,11 @@
 
   "dependencies": {
     "UrhoSharp": "1.2.21",
-    "Peachpie.App": "0.5.0-dev"
+    "Peachpie.App": "0.5.0-preview4"
   },
 
   "tools": {
-    "Peachpie.Compiler.Tools": "0.5.0-dev"
+    "Peachpie.Compiler.Tools": "0.5.0-preview4"
   },
 
   "frameworks": {
