@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "compilerName": "php",
+    "compile": "**/*.php",
+    "debugType": "full",
+    "emitEntryPoint": true,
+    "copyToOutput": ["mono-urho.dll"]
+  },
+
+  "dependencies": {
+    "UrhoSharp": "1.2.21",
+    "Peachpie.App": "0.5.0-dev"
+  },
+
+  "tools": {
+    "Peachpie.Compiler.Tools": "0.5.0-dev"
+  },
+
+  "frameworks": {
+    ".NETFramework,Version=v4.6": {}
+  }
+}
