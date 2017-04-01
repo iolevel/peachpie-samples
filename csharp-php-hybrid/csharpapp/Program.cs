@@ -1,6 +1,6 @@
-﻿using Pchp.Core;
+﻿using System;
 using System.Reflection;
-using System;
+using Pchp.Core;
 using Pchp.Core.Reflection;
 
 namespace csharpapp

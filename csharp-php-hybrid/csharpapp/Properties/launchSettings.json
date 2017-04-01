@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "csharpapp": {
+      "commandName": "Project"
+    }
+  }
+}

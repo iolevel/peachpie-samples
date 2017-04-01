@@ -8,7 +8,7 @@
     {
         "taskName": "build",
         "args": [
-            "${workspaceRoot}/csharpapp/project.json"
+            "${workspaceRoot}/csharpapp/csharpapp.csproj"
         ],
         "isBuildCommand": true,
         "problemMatcher": "$msCompile"
