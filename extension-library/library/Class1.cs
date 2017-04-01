@@ -3,7 +3,8 @@
 [assembly: PhpExtension]
 
 // Example:
-public static class MyFunctions {
+public static class MyFunctions
+{
     // declaration of a global PHP function 'mystrlen()'
     public static int mystrlen(string str) { return (str != null) ? str.Length : -1; }
 
@@ -19,7 +20,9 @@ public static class MyFunctions {
 
 
 // declaration of PHP class
-public class SampleClass {
+[PhpType]
+public class SampleClass
+{
     // declaration of method
-    public int foo(){ return 123; }
+    public int foo() { return 123; }
 }
