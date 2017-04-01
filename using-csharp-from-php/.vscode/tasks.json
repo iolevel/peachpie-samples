@@ -8,7 +8,7 @@
     {
         "taskName": "build",
         "args": [
-            "${workspaceRoot}/phpapp/project.json"
+            "${workspaceRoot}/phpapp/phpapp.msbuildproj"
         ],
         "isBuildCommand": true,
         "problemMatcher": "$msCompile"

@@ -1,4 +1,6 @@
-﻿namespace CSharpLib
+﻿using System;
+
+namespace CSharpLib
 {
     public class X
     {
