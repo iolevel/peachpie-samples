@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}\\bin\\Debug\\net46\\win7-x64\\urho-sample.exe",
+            "program": "${workspaceRoot}\\bin\\Debug\\net46\\urho-sample.exe",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
