@@ -11,6 +11,7 @@
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
             "stopAtEntry": false,
+            "justMyCode": false,
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
