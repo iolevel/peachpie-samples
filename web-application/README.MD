@@ -14,10 +14,9 @@ Note the original PHP sources (*.php files) are not needed to run the compiled a
 
 ## Prerequisites
 
-- .NET Core 1.0 or newer
+- .NET Core 2.0 or newer
 - Optionally - Visual Studio Code 
 
 ## How to run the project
 
-1. `dotnet restore`
-2. `dotnet run -p app`
+1. `dotnet run -p app`
