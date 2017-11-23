@@ -23,7 +23,7 @@ namespace peachserver
         {
             app.UseSession();
 
-            app.UsePhp();
+            app.UsePhp( new PhpRequestOptions() { ScriptAssembliesName = new[] { "website" } } );
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }

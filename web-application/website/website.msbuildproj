@@ -1,17 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>5196d6e7-b0f7-47e3-b387-3a5afddcbf3f</ProjectGuid>
+  </PropertyGroup>
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="**/*.php" />
   </ItemGroup>
-
   <ItemGroup>
     <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.8.0-*" />
     <PackageReference Include="Peachpie.NET.Sdk" Version="0.8.0-*" PrivateAssets="Build" />
   </ItemGroup>
-
 </Project>
