@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "fpdf", "fpdf\fpdf.msbuildproj", "{DF336813-58EA-4EDE-A1EB-AD8E4FA7B0DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "console", "console\console.csproj", "{A7D066EA-C217-45D9-86D2-3C5AB34E38FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF336813-58EA-4EDE-A1EB-AD8E4FA7B0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF336813-58EA-4EDE-A1EB-AD8E4FA7B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF336813-58EA-4EDE-A1EB-AD8E4FA7B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF336813-58EA-4EDE-A1EB-AD8E4FA7B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D066EA-C217-45D9-86D2-3C5AB34E38FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D066EA-C217-45D9-86D2-3C5AB34E38FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D066EA-C217-45D9-86D2-3C5AB34E38FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D066EA-C217-45D9-86D2-3C5AB34E38FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53DE984B-142B-47A1-A501-9A85058965F1}
+	EndGlobalSection
+EndGlobal
