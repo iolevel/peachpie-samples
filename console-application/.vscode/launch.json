@@ -6,12 +6,13 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.1/console-application.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/console-application.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
             "stopAtEntry": false,
-            "internalConsoleOptions": "openOnSessionStart"
+            "internalConsoleOptions": "openOnSessionStart",
+            "justMyCode": false,
         },
         {
             "name": ".NET Core Attach",
