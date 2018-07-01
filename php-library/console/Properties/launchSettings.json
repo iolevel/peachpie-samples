@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "console": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\jmise\\Projects\\peachpie-samples\\php-library\\fpdf"
+    }
+  }
+}
