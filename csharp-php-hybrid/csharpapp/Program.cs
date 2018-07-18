@@ -13,7 +13,7 @@ namespace csharpapp
             Context.AddScriptReference(Assembly.Load(new AssemblyName("phplib")));
 
             // create host for PHP code (Runtime Context):
-            using (var ctx = Context.CreateConsole())
+            using (var ctx = Context.CreateConsole("csharpapp"))
             {
                 // declare global function in PHP runtime context
                 ctx.DeclareFunction(RoutineInfo.CreateUserRoutine("is_valid_url",
