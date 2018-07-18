@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>netstandard2.0;net46</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
     <Description>Using C# library in PHP code compiled by Peachpie.</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>1.2.3-R1</Version>
