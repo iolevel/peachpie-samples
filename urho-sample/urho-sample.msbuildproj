@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net46</TargetFramework>
+    <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.8.0-CI00402" />
-    <PackageReference Include="Peachpie.NET.Sdk" Version="0.8.0-CI00402" PrivateAssets="Build" />
+    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.9.0-*" />
+    <PackageReference Include="Peachpie.NET.Sdk" Version="0.9.0-*" PrivateAssets="Build" />
     <PackageReference Include="UrhoSharp" Version="1.2.21" />
   </ItemGroup>
   

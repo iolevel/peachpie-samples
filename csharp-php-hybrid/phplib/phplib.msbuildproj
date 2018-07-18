@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>netstandard1.5;net46</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
     <Description>Using C# library in PHP code compiled by Peachpie.</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>1.2.3-R1</Version>
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.8.0-*" />
-    <PackageReference Include="Peachpie.NET.Sdk" Version="0.8.0-*" PrivateAssets="Build" />
+    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.9.0-*" />
+    <PackageReference Include="Peachpie.NET.Sdk" Version="0.9.0-*" PrivateAssets="Build" />
   </ItemGroup>
 </Project>
