@@ -27,6 +27,9 @@ namespace render_php_within_razor
         {
             services.AddMvc();
 
+            // Side-load PHP "Views" (compiled PHP scripts) into current app domain:
+            // NOTE: `SomePhpClass` is defined in php-library.dll,
+            // `typeof(SomePhpClass).Assembly` allows us to get Assembly object referring to php-library.dll
             Context.AddScriptReference(typeof(SomePhpClass).Assembly);
         }
 
