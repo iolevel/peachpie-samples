@@ -12,8 +12,9 @@
     <None Include="**/*.php" />
   </ItemGroup>
   <ItemGroup>
-    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.9.0-CI01028" />
-    <PackageReference Include="Peachpie.NET.Sdk" Version="0.9.0-CI01028" PrivateAssets="Build" />
-    <PackageReference Include="Peachpie.Library.Graphics" Version="0.9.0-CI01028" />
+    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.9.0-CI01034" />
+    <PackageReference Include="Peachpie.NET.Sdk" Version="0.9.0-CI01034" PrivateAssets="Build" />
+    <PackageReference Include="Peachpie.Library.Graphics" Version="0.9.0-CI01034" />
+	<PackageReference Include="Peachpie.AspNetCore.Mvc" Version="0.9.0-CI01034" />
   </ItemGroup>
 </Project>

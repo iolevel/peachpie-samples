@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "render-php-within-razor", "
 EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "php-library", "php-library\php-library.msbuildproj", "{F9DFD0A7-D644-402C-B8C9-73FF0904B2F7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "render-partial-view-within-php", "render-partial-view-within-php\render-partial-view-within-php.csproj", "{F2FCDE2F-29A4-41B7-AFBC-2B954C8F8AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F9DFD0A7-D644-402C-B8C9-73FF0904B2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DFD0A7-D644-402C-B8C9-73FF0904B2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DFD0A7-D644-402C-B8C9-73FF0904B2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FCDE2F-29A4-41B7-AFBC-2B954C8F8AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FCDE2F-29A4-41B7-AFBC-2B954C8F8AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FCDE2F-29A4-41B7-AFBC-2B954C8F8AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FCDE2F-29A4-41B7-AFBC-2B954C8F8AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
