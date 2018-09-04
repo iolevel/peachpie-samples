@@ -9,7 +9,7 @@
     <AssemblyOriginatorKeyFile>..\mykey.snk</AssemblyOriginatorKeyFile> 
     <SignAssembly>true</SignAssembly> 
     <PublicSign Condition="'$(OS)' != 'Windows_NT'">true</PublicSign>
-    <GenerateDocumentation>true</GenerateDocumentation>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
