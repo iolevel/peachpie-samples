@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.9">
   <PropertyGroup Label="Globals">
     <ProjectGuid>5196d6e7-b0f7-47e3-b387-3a5afddcbf3f</ProjectGuid>
   </PropertyGroup>
@@ -8,9 +8,5 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="**/*.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.9.0-*" />
-    <PackageReference Include="Peachpie.NET.Sdk" Version="0.9.0-*" PrivateAssets="Build" />
   </ItemGroup>
 </Project>

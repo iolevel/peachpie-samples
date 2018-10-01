@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.9">
   <PropertyGroup Label="Globals">
     <ProjectGuid>df336813-58ea-4ede-a1eb-ad8e4fa7b0dd</ProjectGuid>
   </PropertyGroup>
@@ -15,10 +15,5 @@
   <ItemGroup>
     <Compile Include="**/*.php" />
     <Content Include="**/*.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.9.0-*" />
-    <PackageReference Include="Peachpie.NET.Sdk" Version="0.9.0-*" PrivateAssets="Build" />
-    <PackageReference Include="Peachpie.Library.Graphics" Version="0.9.0-*"/>
   </ItemGroup>
 </Project>

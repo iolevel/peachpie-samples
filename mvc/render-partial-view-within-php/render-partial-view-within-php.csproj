@@ -6,8 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Peachpie.App" Version="0.9.0-CI01034 " />
-    <PackageReference Include="Peachpie.AspNetCore.Mvc" Version="0.9.0-CI01034 " />
+    <PackageReference Include="Peachpie.App" Version="0.9.9" />
+    <PackageReference Include="Peachpie.AspNetCore.Mvc" Version="0.9.9" />
   </ItemGroup>
 
   <ItemGroup>

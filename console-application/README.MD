@@ -10,10 +10,9 @@ The PHP sources are compiled to .NET Core by Peachpie compiler which is seamless
 
 ## Prerequisites
 
-- .NET Core 1.0.1 or 1.1
-- Optionally - Visual Studio Code 
+- .NET Core 2.0 or higher
+- Optionally - Visual Studio Code or Visual Studio 2017
 
 ## How to run the project
 
-1. `dotnet restore`
-2. `dotnet run`
+1. `dotnet run`
