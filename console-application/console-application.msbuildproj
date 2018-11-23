@@ -1,7 +1,7 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.11">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.17">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <Description>Simpliest PHP project for .NET Core, a console app.</Description>
   </PropertyGroup>
