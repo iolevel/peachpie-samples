@@ -1,9 +1,10 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.42">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.43">
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Using C# library in PHP code compiled by Peachpie.</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Version>1.2.3-R1</Version>
   </PropertyGroup>
 
