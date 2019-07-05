@@ -9,8 +9,8 @@ namespace csharpapp
     {
         static void Main()
         {
-            // sideload assembly containing compiled PHP code:            
-            Context.AddScriptReference(Assembly.Load(new AssemblyName("phplib")));
+            // sideload assembly containing compiled PHP code:
+            Context.AddScriptReference(typeof(User).Assembly);
 
             // create host for PHP code (Runtime Context):
             using (var ctx = Context.CreateConsole("csharpapp"))

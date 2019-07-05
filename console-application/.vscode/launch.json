@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/console-application.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.1/console-application.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
@@ -18,7 +18,7 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",
-            "processId": "${command.pickProcess}"
+            "processId": "${command:pickProcess}"
         }
     ]
 }

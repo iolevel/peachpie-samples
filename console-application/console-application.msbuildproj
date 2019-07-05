@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.43">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.44">
 
   <PropertyGroup>
     <OutputType>exe</OutputType>
