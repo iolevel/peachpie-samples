@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Peachpie.AspNetCore.Web;
 using System;
 using System.Collections.Generic;
@@ -55,7 +56,10 @@ namespace peachserver
 
             //
             app.UseDefaultFiles();
-            app.UseStaticFiles();
+
+            // use static files embedded in the compiled assembly
+            var fileProvider = new ManifestEmbeddedFileProvider(typeof(ResourceDemo).Assembly);
+            app.UseStaticFiles(new StaticFileOptions() { FileProvider = fileProvider });
         }
     }
 }
