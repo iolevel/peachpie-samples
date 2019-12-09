@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:latest
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 MAINTAINER Jakub Misek <jakub.misek@iolevel.com>
 
 COPY . /wwwroot
