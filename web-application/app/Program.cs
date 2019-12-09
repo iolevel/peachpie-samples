@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.DependencyInjection;
-using Peachpie.AspNetCore.Web;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,18 +33,18 @@ namespace peachserver
 
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
-                options.Cookie.HttpOnly = true;
+               options.IdleTimeout = TimeSpan.FromMinutes(30);
+               options.Cookie.HttpOnly = true;
             });
         }
 
         public void Configure(IApplicationBuilder app)
         {
-            // sample usage of URL rewrite:
-            var options = new RewriteOptions()
-                .AddRewrite(@"^rule/(\w+)", "index.php?word=$1", skipRemainingRules: true);
+            //// sample usage of URL rewrite:
+            //var options = new RewriteOptions()
+            //    .AddRewrite(@"^rule/(\w+)", "index.php?word=$1", skipRemainingRules: true);
 
-            app.UseRewriter(options);
+            //app.UseRewriter(options);
 
             // enable session:
             app.UseSession();
