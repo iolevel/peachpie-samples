@@ -12,7 +12,7 @@ The sample compiles C# project and references it by PHP project. C# declaration 
 
 ## Prerequisites
 
-- .NET Core 1.0.1 or newer
+- .NET Core Sdk 2.1 or newer
 - Optionally - Visual Studio Code or Visual Studio 2017
 
 ## How to run the project

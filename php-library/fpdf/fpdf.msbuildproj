@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.46">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.800">
   <PropertyGroup Label="Globals">
     <ProjectGuid>df336813-58ea-4ede-a1eb-ad8e4fa7b0dd</ProjectGuid>
   </PropertyGroup>
@@ -8,7 +8,6 @@
     <Version>0.0.1-preview</Version>
     <AssemblyOriginatorKeyFile>..\mykey.snk</AssemblyOriginatorKeyFile> 
     <SignAssembly>true</SignAssembly> 
-    <PublicSign Condition="'$(OS)' != 'Windows_NT'">true</PublicSign>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>

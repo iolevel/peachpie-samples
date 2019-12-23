@@ -31,7 +31,7 @@ namespace Demo
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "php-library"));
+            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: typeof(User).Assembly.FullName));
         }
     }
 }
