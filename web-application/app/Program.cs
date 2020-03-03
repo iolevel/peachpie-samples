@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,13 +15,11 @@ namespace peachserver
     {
         static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
+            WebHost
+                .CreateDefaultBuilder<Startup>(args)
                 .UseUrls("http://*:5004/")
-                .UseStartup<Startup>()
-                .Build();
-
-            host.Run();
+                .Build()
+                .Run();
         }
     }
 

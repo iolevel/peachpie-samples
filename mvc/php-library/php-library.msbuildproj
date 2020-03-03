@@ -1,10 +1,10 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.800">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.900">
   <PropertyGroup Label="Globals">
     <ProjectGuid>f9dfd0a7-d644-402c-b8c9-73ff0904b2f7</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <OutputType>library</OutputType>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>

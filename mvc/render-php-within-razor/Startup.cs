@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Pchp.Core;
 
 namespace render_php_within_razor
@@ -25,7 +26,10 @@ namespace render_php_within_razor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc(options =>
+            {
+                options.EnableEndpointRouting = false;
+            });
 
             // Side-load PHP "Views" (compiled PHP scripts) into current app domain:
             // NOTE: `SomePhpClass` is defined in php-library.dll,
@@ -34,7 +38,7 @@ namespace render_php_within_razor
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
