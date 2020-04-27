@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/phpapp/bin/Debug/netcoreapp3.0/phpapp.dll",
+            "program": "${workspaceRoot}/phpapp/bin/Debug/netcoreapp3.1/phpapp.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
@@ -17,7 +17,7 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",
-            "processId": "${command.pickProcess}"
+            "processId": "${command:pickProcess}"
         }
     ]
 }

@@ -1,7 +1,7 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.920">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.970">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Description>Using C# library in PHP code compiled by Peachpie.</Description>
   </PropertyGroup>
   <ItemGroup>
