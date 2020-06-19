@@ -20,6 +20,7 @@ namespace Demo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddPhp();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -32,7 +33,7 @@ namespace Demo
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: typeof(User).Assembly.FullName));
+            app.UsePhp();
         }
     }
 }

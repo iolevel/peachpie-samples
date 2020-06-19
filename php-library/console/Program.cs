@@ -9,9 +9,6 @@ namespace csharpapp
     {
         static void Main()
         {
-            // sideload assembly containing compiled PHP code:            
-            Context.AddScriptReference(Assembly.Load(new AssemblyName("fpdf")));
-
             // create host for PHP code (Runtime Context):
             using (var ctx = Context.CreateConsole(null))
             {
