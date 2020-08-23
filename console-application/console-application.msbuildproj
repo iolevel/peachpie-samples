@@ -6,5 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="**/*.php;*.phar" />
+    <Content Include="**/*.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>

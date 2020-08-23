@@ -1,7 +1,10 @@
 <?php
 
 function main() {
-    echo "Hello .NET World!";    
+
+    $content = json_decode(file_get_contents("content.json"));
+    echo $content->message;
+    
 }
 
 main();
