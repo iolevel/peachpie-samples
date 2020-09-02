@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/0.9.990">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.0.0-preview1">
   <PropertyGroup Label="Globals">
     <ProjectGuid>df336813-58ea-4ede-a1eb-ad8e4fa7b0dd</ProjectGuid>
   </PropertyGroup>
