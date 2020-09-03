@@ -2,8 +2,13 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <ContentTargetFolders>contentFiles</ContentTargetFolders>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**/*.php" />
+    <Compile Include="**/*.php" Exclude="obj/**;bin/**;" />
+    <Content Include="**" Exclude="**/*.php;obj/**;bin/**;*.msbuildproj;.vscode;.vs;">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <None Remove="**" />
   </ItemGroup>
 </Project>
