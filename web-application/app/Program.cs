@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.IO;
 using System.Linq;
@@ -43,7 +44,7 @@ namespace peachserver
             });
         }
 
-        public void Configure(IApplicationBuilder app)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             //// sample usage of URL rewrite:
             //var options = new RewriteOptions()
