@@ -12,7 +12,7 @@ namespace csharpapp
         static void Main()
         {
             // acquire PHP Context
-            // Context is a single-threaded object manintaining state of PHP program.
+            // Context is a single-threaded object manntaining state of PHP program.
             // There are several ways of getting/creating the object, see https://docs.peachpie.io/api/ref/context/ for details
             // ContextExtensions.CurrentContext can be overriden, by default it creates a new context per thread without
             var ctx = ContextExtensions.CurrentContext;
