@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.0.0-preview3">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.0.0-preview4">
   <PropertyGroup>
     <OutputType>exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,6 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="**/*.php;*.phar" />
-    <Content Include="**/*.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="**/*.json" Exclude=".*/**;bin/**;obj/**;" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>
