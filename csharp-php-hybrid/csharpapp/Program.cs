@@ -34,7 +34,7 @@ namespace csharpapp
 
             // call function is_valid_email(...)
             // global functions have to be declared and called using Context.Call():
-            Debug.Assert(ctx.Call("is_valid_email", "test@example.org"));
+            Debug.Assert((bool)ctx.Call("is_valid_email", "test@example.org"));
 
             // classes can be used as they are:
             var u1 = new User("Everyone", "https://www.example.org/", "example@example.com");
