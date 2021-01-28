@@ -2,6 +2,9 @@
 
 require_once 'functions.php';
 
+/**
+ * Our sample user object.
+ */
 class User
 {
     /** User's name */
@@ -34,7 +37,7 @@ class User
      */
     function Authenticate() {
         // TODO: Authenticate user's credentials
-		System\Diagnostics\Debug::WriteLine("hI FROM php !!!");
+		System\Diagnostics\Debug::WriteLine("Hi FROM php !!!");
         echo "$this->name is authenticated";
     }
 }
