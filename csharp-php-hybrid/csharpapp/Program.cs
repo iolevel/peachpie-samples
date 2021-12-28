@@ -14,8 +14,12 @@ namespace csharpapp
             // acquire PHP Context
             // Context is a single-threaded object manntaining state of PHP program.
             // There are several ways of getting/creating the object, see https://docs.peachpie.io/api/ref/context/ for details
-            // ContextExtensions.CurrentContext can be overriden, by default it creates a new context per thread without
-            var ctx = ContextExtensions.CurrentContext;
+
+            // ContextExtensions.CurrentContext can be overriden, by default it creates a new context per thread without            
+            var ctx = ContextExtensions.CurrentContext; // CurrentContext is also used implicitly by the PHP class constructors
+
+            // redirect "echo" output
+            ctx.Output = Console.Out;
 
             // declare global function in Context
             ctx.DeclareFunction("is_valid_url", new Func<string, bool>((url) =>
