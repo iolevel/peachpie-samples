@@ -46,6 +46,8 @@ namespace peachserver
 
         public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
+            app.UseDeveloperExceptionPage();
+
             //// sample usage of URL rewrite:
             //var options = new RewriteOptions()
             //    .AddRewrite(@"^rule/(\w+)", "index.php?word=$1", skipRemainingRules: true);
