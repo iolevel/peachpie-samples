@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/phpapp/bin/Debug/netcoreapp3.1/phpapp.dll",
+            "program": "${workspaceRoot}/phpapp/bin/Debug/net6.0/phpapp.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,

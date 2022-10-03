@@ -1,10 +1,10 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.0.9">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.0">
   <PropertyGroup Label="Globals">
     <ProjectGuid>df336813-58ea-4ede-a1eb-ad8e4fa7b0dd</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <OutputType>library</OutputType>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Version>0.0.1-preview</Version>
     <AssemblyOriginatorKeyFile>..\mykey.snk</AssemblyOriginatorKeyFile> 
     <SignAssembly>true</SignAssembly> 

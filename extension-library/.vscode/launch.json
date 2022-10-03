@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/samplephp/bin/Debug/net5.0/samplephp.dll",
+            "program": "${workspaceRoot}/samplephp/bin/Debug/net6.0/samplephp.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
