@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/csharpapp/bin/Debug/net5.0/csharpapp.dll",
+            "program": "${workspaceRoot}/csharpapp/bin/Debug/net6.0/csharpapp.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
