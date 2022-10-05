@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Peachpie.App" Version="1.1.0" />
-    <PackageReference Include="Peachpie.AspNetCore.Mvc" Version="1.1.0" />
+    <PackageReference Include="Peachpie.App" Version="1.1.1" />
+    <PackageReference Include="Peachpie.AspNetCore.Mvc" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>
