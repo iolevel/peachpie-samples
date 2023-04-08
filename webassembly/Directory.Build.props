@@ -1,0 +1,10 @@
+﻿<Project>
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<DebugType>embedded</DebugType>
+		<AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+		<BaseIntermediateOutputPath>obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+	</PropertyGroup>
+
+</Project>

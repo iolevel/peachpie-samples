@@ -1,0 +1,21 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.7">
+
+	<PropertyGroup>
+		<DebugType>embedded</DebugType>
+		<DisableImplicitPeachpieReferences>true</DisableImplicitPeachpieReferences>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Peachpie.Runtime" Version="$(PeachpieVersion)" />
+		<PackageReference Include="Peachpie.Library" Version="$(PeachpieVersion)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="**/*.php" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="**" />
+	</ItemGroup>
+
+</Project>

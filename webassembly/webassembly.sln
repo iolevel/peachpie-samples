@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webassembly", "webassembly.csproj", "{D6A065A1-D1A5-439B-91DE-BB7B1F70B510}"
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "php", "php.msbuildproj", "{94526EA9-73C5-49B8-BF37-7D9A76791BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6A065A1-D1A5-439B-91DE-BB7B1F70B510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A065A1-D1A5-439B-91DE-BB7B1F70B510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A065A1-D1A5-439B-91DE-BB7B1F70B510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A065A1-D1A5-439B-91DE-BB7B1F70B510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94526EA9-73C5-49B8-BF37-7D9A76791BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94526EA9-73C5-49B8-BF37-7D9A76791BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94526EA9-73C5-49B8-BF37-7D9A76791BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94526EA9-73C5-49B8-BF37-7D9A76791BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E3CA04-5884-4FAE-869E-9232492E4D93}
+	EndGlobalSection
+EndGlobal
