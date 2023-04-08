@@ -1,4 +1,7 @@
 ﻿@page "/"
 @inject PhpInterop php
 
+@php.Require("global.php")
+
 @php.View("wwwroot/index.php")
+@php.Call("foo", "Hello from Razor");
