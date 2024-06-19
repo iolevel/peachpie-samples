@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "command": "dotnet",
+    "args": [],
+    "tasks": [
+        {
+            "label": "build",
+            "args": [
+                "build",
+                "${workspaceRoot}/system-threading-tasks.msbuildproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

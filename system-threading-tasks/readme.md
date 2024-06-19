@@ -1,0 +1,1 @@
+A console application which runs [Task](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-8.0) on a background thread.
