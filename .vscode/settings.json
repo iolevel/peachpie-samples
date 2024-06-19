@@ -1,0 +1,7 @@
+{
+    "php.problems.exclude": 
+    {
+        /* disable unknown class error, since some classes are in .NET's dll */
+        "/": [413]
+    }
+}
