@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "command": "dotnet",
+    "args": [],
+    "tasks": [
+        {
+            "label": "build",
+            "args": [
+                "build",
+                "${workspaceRoot}/composer-autoload.msbuildproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
