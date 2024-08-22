@@ -9,6 +9,7 @@
 
 define('FPDF_VERSION','1.81');
 
+/** PDF object used to build and save PDF file. */
 class FPDF
 {
 protected $page;               // current page number
@@ -981,6 +982,7 @@ function SetXY($x, $y)
 	$this->SetY($y,false);
 }
 
+/** Output PDF to some destination. */
 function Output(string $dest='', string $name='', bool $isUTF8=false)
 {
 	// Output PDF to some destination

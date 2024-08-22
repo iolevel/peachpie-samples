@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.2.0-r17797">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.10">
   <PropertyGroup>
     <OutputType>exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

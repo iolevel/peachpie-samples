@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.1.7">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.10">
 
 	<PropertyGroup>
 		<DebugType>embedded</DebugType>

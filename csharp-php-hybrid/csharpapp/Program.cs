@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Reflection;
 using System.Threading;
 using Pchp.Core;
-using Pchp.Core.Reflection;
 using Pchp.Core.Utilities;
 
 namespace csharpapp

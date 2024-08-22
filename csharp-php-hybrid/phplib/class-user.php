@@ -10,7 +10,7 @@ class User
     /** User's name */
     protected $name;
 
-    /** User's EMail */
+    /** User's e-mail */
     protected $email;
 
     /** User's URL */
@@ -28,7 +28,7 @@ class User
         $this->email = $email;
     }
 
-    function __tostring() {
+    function __toString() {
         return $this->name;
     }
 

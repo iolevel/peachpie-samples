@@ -1,7 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.1.4">
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>df336813-58ea-4ede-a1eb-ad8e4fa7b0dd</ProjectGuid>
-  </PropertyGroup>
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.10">
   <PropertyGroup>
     <OutputType>library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,6 +7,7 @@
     <SignAssembly>true</SignAssembly> 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebuggerAttach>false</DebuggerAttach>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="**/*.php" />
