@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Peachpie.Runtime" Version="1.1.10" />
+    <PackageReference Include="Peachpie.Runtime" Version="1.1.11" />
     <PackageReference Include="System.Reflection" Version="4.3.0" />
   </ItemGroup>
 

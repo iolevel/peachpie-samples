@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/net8.0/system-threading-tasks.dll",
+            "program": "${workspaceRoot}/bin/Debug/net9.0/system-threading-tasks.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,

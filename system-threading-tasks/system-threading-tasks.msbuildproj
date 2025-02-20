@@ -1,7 +1,7 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.1.10">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.11">
   <PropertyGroup>
     <OutputType>exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <StartupObject>main.php</StartupObject>
   </PropertyGroup>
   <ItemGroup>
