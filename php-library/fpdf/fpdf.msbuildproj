@@ -1,4 +1,4 @@
-﻿<Project Sdk="Peachpie.NET.Sdk/1.1.11">
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.13">
   <PropertyGroup>
     <OutputType>library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
